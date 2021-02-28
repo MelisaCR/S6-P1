@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Entrega Semana 6</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body onkeypress="teclado()">
+	<center>
+		<h1>Presiona las teclas X W Z<h1>
+	<div id="mensaje" class="mensaje">
+		
+	</div>
+
+	<input type="text" id="frase" class="frase" placeholder="ESCRIBE AQUI TU FRASE">
+
+	</center>
+
+	<script>
+		
+
+		var teclado=function()
+		{
+			var mensaje=document.getElementById('mensaje');
+			var frase=document.getElementById('frase').value;
+
+		if (event.code=="KeyX") 
+		{
+			console.log(frase);
+			mensaje.className="mensaje1";
+			mensaje.innerHTML='<p id="frase1">'+frase+'</p>';
+
+		}
+		else
+		{
+			if (event.code=="KeyW") 
+			{
+			console.log(frase);
+			mensaje.className="mensaje2";
+			mensaje.innerHTML='<p id="frase2">'+frase+'</p>';
+			}
+			else
+			{
+				if (event.code=="KeyZ") 
+				{
+				console.log(frase);
+				mensaje.className="mensaje3";
+				mensaje.innerHTML='<p id="frase3">'+frase+'</p>';
+				}
+			}
+		}
+
+	}
+	</script>
+</body>
+</html>

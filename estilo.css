@@ -1,0 +1,77 @@
+body{
+	background: url("fondo.JPG");
+	background-size: cover;
+}
+
+h1{
+	color: #9D6D30;
+	font-family: cursive;
+}
+
+.mensaje{
+	background: rgba(174, 167, 166,0.5);
+	width: 70%;
+	height: 50%;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 5%;
+	border:2px solid #F7EC41;
+}
+
+.mensaje1{
+	background: rgba(225, 171, 140,0.5);
+	width: 70%;
+	height: 50%;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 5%;
+	border:2px solid #9D6D30;
+	font-family: monospace;
+	color: brown;
+	font-size: 200%;
+	text-align: center;
+
+}
+
+.mensaje2{
+	background: rgba(140, 188, 225,0.5);
+	width: 70%;
+	height: 50%;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 5%;
+	border:2px solid blue;
+	border-radius: 20px 0px 20px 0px;
+	font-family: serif;
+	color: blue;
+	font-size: 200%;
+	text-align: center;
+}
+
+.mensaje3{
+	background: rgba(191, 140, 225,0.5);
+	width: 70%;
+	height: 50%;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 5%;
+	border:2px solid #606A98;
+	font-family: cursive;
+	color: purple;
+	border-radius: 20px;
+	font-size: 200%;
+	text-align: center;
+	border-radius: 25px 25px 25px 25px;
+}
+
+.frase{
+	background-color: transparent;
+	color: black;
+	position: absolute;
+	margin-top: 32%;
+	margin-left: -25%;
+	border: 0px;
+	border-bottom: 2px solid black;
+	width: 50%;
+	text-align: center;
+}
